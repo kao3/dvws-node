@@ -1,9 +1,9 @@
 version: '3'
 services:
     dvws-mongo:
-        image: mongo:4.0.4
+        image: andresvidal/rpi3-mongodb3
     dvws-mysql:
-        image: mariadb:10.1
+        image: dhermanns/rpi-mariadb
         environment:
             MYSQL_ROOT_PASSWORD: mysecretpassword
     web:

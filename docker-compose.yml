@@ -3,7 +3,7 @@ services:
     dvws-mongo:
         image: mongo:4.0.4
     dvws-mysql:
-        image: mysql:5.7
+        image: mariadb:10.1
         environment:
             MYSQL_ROOT_PASSWORD: mysecretpassword
     web:
